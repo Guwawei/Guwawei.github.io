@@ -1,141 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        /* CSS styles for tabs */
+        .tabcontent {
+            display: none;
+        }
 
-  <style>
-  /* CSS styles for tabs */
-  .tabcontent {
-  display: none;
-  }
+        .tablinks {
+            background-color: #f2f2f2;
+            color: black;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-  .tablinks {
-  background-color: #f2f2f2;
-  color: black;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
-  }
+        .tablinks:hover {
+            background-color: #ddd;
+        }
 
-  .tablinks:hover {
-  background-color: #ddd;
-  }
-
-  .tablinks.active {
-  background-color: #ccc;
-  }
-  </style>
-  <title></title>
+        .tablinks.active {
+            background-color: #ccc;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1 align="center">Raising Awareness Towards Gender Equality</h1>
-  </header>
-  <main>
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'Gender Issues')">About</button> <button class="tablinks" onclick="openTab(event, 'Brainstorming Techniques')">Brainstorming Techniques</button> <button class="tablinks" onclick="openTab(event, 'Solutions')">Solutions</button> <button class="tablinks" onclick="openTab(event, 'Supporting Evidences')">Supporting Evidences</button>
-    </div><!-- Tab content -->
-<div id="Gender Issues" class="tabcontent">
-      <h3>An Introduction to Gender Issues</h3>
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/defscAMhUkg" frameborder="0" allowfullscreen></iframe>
-<p>Gender issues refer to the problems and challenges faced by individuals based on their gender identity, expression, or gender roles. Throughout history, gender norms and stereotypes have been used to dictate what it means to be a man or a woman, and these norms have often been rigid and limiting.</p>
-      <p>For example, in ancient Greece, men were expected to be strong, stoic, and aggressive, while women were expected to be submissive, emotional, and nurturing. Women who didn't conform to these gender roles were often ostracized or punished.</p>
-    <p>In the Middle Ages, gender norms were even more strict, with men expected to be warriors and women expected to be homemakers. Women who worked outside the home were often seen as immoral or promiscuous.</p>
-      <p>In the Victorian era, gender norms were even more restrictive, with women expected to be demure, modest, and submissive, while men were expected to be confident, assertive, and dominant. Women who didn't conform to these gender roles were often shamed and stigmatized.</p>
-      <p>Throughout history, gender norms and stereotypes have been used to justify discrimination and inequality. For example, in the 19th and early 20th centuries, women were often denied the right to vote, own property, or access education. They were also subjected to forced sterilization, abortion, and other forms of gender-based violence.</p>
-      <p>In recent years, there has been a growing movement to challenge traditional gender norms and stereotypes. This movement, known as gender equality, seeks to promote equality and justice for all individuals, regardless of their gender.</p>
-      <p>So, to sum it up, gender issues in historical periods have been a major concern for many people, and it's important to continue working towards gender equality.</p>
+    <section style="background-color: rgb(255, 255, 255);">
+        <header style="text-align: center; background-image: url('https://cdn.discordapp.com/attachments/1175699393626783777/1203170708759388200/Screenshot_2024-02-03_105027.png?ex=65ebce8a&is=65d9598a&hm=80272e0b2d9b70cb8a6afeb977f161eb2576b72f9a1cc358feedbb5c74836054&'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+          <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1203169987402010694/Screenshot_2024-02-02_165240-Photoroom.png-Photoroom_1.png?ex=65ebcdde&is=65d958de&hm=05fe22aed52188089726d068ecb92fd779d28ab19509213f8fcd5c7d2803411a&" alt="Logo" style="width:300px;height:140px;">
+        </header>
+        <p>________________________________________________________________________________________________________________________________________________________________</p>
+        <main>
+          <div class="tab" style="text-align: center;">
+            <button class="tablinks" onclick="openTab(event, 'Gender Issues')" style="background: none;">Home</button>
+            <button class="tablinks" onclick="openTab(event, 'About Us')" style="background: none;">About Us</button>
+            <button class="tablinks" onclick="openTab(event, 'Action Plan')" style="background: none;">Our Action Plan</button>
+            <button class="tablinks" onclick="openTab(event, 'Prototype Making')" style="background: none;">Prototype Making</button>
+            <button class="tablinks" onclick="openTab(event, 'Prototype')" style="background: none;">Prototype</button>
+            <button class="tablinks" onclick="openTab(event, 'Usability Testing')" style="background: none;">Usability Testing</button>
+            <button class="tablinks" onclick="openTab(event, 'Data Analysis')" style="background: none;">Data Analysis</button>
+            <button class="tablinks" onclick="openTab(event, 'Revised Prototype')" style="background: none;">Revised Prototype</button>
+          </div>
+        </main>
+    </section>
+
+    <div id="Gender Issues" class="tabcontent">
+        <h1 style="font-family: Raleway; font-size: 72px; text-align: center;">JOIN EQUALIZE</h1>
+        <h2 style="font-family: Avenir Light; font-size: 30px; text-align: center;">Take Action Now</h2>
+    
+    
+    
+    
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Automatic Slideshow</title>
+        <!-- Include jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <style>
+            #slideshow {
+                width: 100%;
+                height: 300px; /* Adjust height as needed */
+                overflow: hidden;
+            }
+            #slideshow img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Maintain aspect ratio */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="slideshow">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717424322646056/Screenshot_2024-02-03_081252.png?ex=65ebd7db&is=65d962db&hm=1cb34a7a06f3c7cbf0b7091a5292885a272e8f6da19a65f832f48b86b0cd988f&" alt="Image 1">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717538185416795/Screenshot_2024-02-03_091344.png?ex=65ebd7f6&is=65d962f6&hm=77e492803957d5406029d52249511a4ecefec7fdec8cffeff6a386fd5953b9e4&" alt="Image 2">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717609648103534/Screenshot_2024-02-03_090844.png?ex=65ebd807&is=65d96307&hm=e3928cf29213932ce8ef30644d6af1229b5ab1ae0dc3cccfc5f91fe5caa150e5&" alt="Image 3">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717647841435658/Screenshot_2024-02-03_092406.png?ex=65ebd810&is=65d96310&hm=a2849d9ea1bda52e55dc2cfd90492d7c0bad1b8ba1f48282bdb435f5b0b825d7&" alt="Image 4">
+        </div>
+    
+    
+    
+    
+        <script>
+            $(document).ready(function() {
+                const interval = 3000; // Change image every 3 seconds
+                let currentImage = 0;
+                const images = $("#slideshow img");
+    
+    
+    
+    
+                function changeImage() {
+                    images.hide();
+                    currentImage = (currentImage + 1) % images.length;
+                    images.eq(currentImage).fadeIn();
+                }
+    
+    
+    
+    
+                setInterval(changeImage, interval);
+            });
+        </script>
+    </body>
+    </html>
+
+    <section style="background-color: #def0ee; padding: 20px; text-align: center;">
+        <h2 style="font-weight: bold;">ABOUT EQUALIZE</h2>
+        <p style="font-style: italic;">Inspiring Change</p>
+        <p>Started by a group of students and visionaries back in 2023, Equalize has grown into an impactful Gender Equality Movement. We emphasize transparency in everything we do, setting bold goals and pursuing a clear strategy that seeks to move the needle. We are constantly growing and adapting to the changes of society, and invite you to learn more about how you can make an impact.</p>
+    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213079328926072852/Screenshot_2024-03-01_190353.png?ex=65f42b29&is=65e1b629&hm=d0215e45bd138a5b761a00f712d7c06b2c98c18058f1fac137f58e6754e82fac&" alt="Image 1" style="width:100%">
     </div>
+</section>
+
+    
+    <div id="About Us" class="tabcontent">
+        <h1 style="text-align: center;"><strong>OUR STORY</strong></h1>
+<h2 style="text-align: center;">Fighting for What We Believe In. Together.</h2>
+<p style="text-align: center;">Equalize began as a local Gender Equality Movement in 2023, focusing on social awareness and community action. We soon became recognized as an empowered collection of student leaders—engaging with more and more people, adding more and more supporters, and amplifying more and more voices.</p>
+<div style="text-align: center;">
+    <a href="https://guwawei.github.io/"><strong>Learn more about THE ROOTS OF EQUALIZE: A GENDER EQUALITY AWARENESS CAMPAIGN</strong></a>
+</div>
+<p style="text-align: center;">A significant initiative aimed at promoting gender equality and raising awareness about the importance of equal rights for all. Through this campaign, we strive to create a world where everyone, regardless of gender, has equal opportunities, respect, and access to resources.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205723051845754941/416049944_248197614988828_5867689897353750970_n_2.jpg?ex=65ebdd18&is=65d96818&hm=c8e69f37036e53a669bfda527d1f3ae836248eaa5117a7debfc0452369e9f36a&" alt="Our Story" style="width:100%; height:100%; display: block; margin: 0 auto;">
+       
+        <style>
+          #get-involved {
+              background-color: #def0ee; /* Light teal color */
+              text-align: center;
+              padding: 20px;
+          }
+          /* Add other styles as needed */
+      </style>
+     
+      <section id="get-involved">
+          <h1 style="font-family: Raleway; font-size: 36px; text-align: center;">GET INVOLVED</h1>
+          <p style="font-family: Avenir Light; font-size: 18px; text-align: center;">We Need Everyone</p>
+     
+          <div class="get-involved-column">
+              <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205726462553096232/Screenshot_2024-02-10_120454-removebg-preview_1.png?ex=65d96b45&is=65c6f645&hm=6d4ce3dc3761f44abce9dcd82dd000b9fff8cee49b38443f65b6ea24ebd39fcd&" alt="Volunteering">
+              <h2>Volunteering</h2>
+              <p>Every individual has the ability to motivate others and inspire true change. By volunteering, you become a crucial part of our movement by making sure that our mission is heard and has a far-reaching, lasting impact.</p>
+          </div>
+     
+          <div class="get-involved-column">
+              <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205727760492798043/Screenshot_2024-02-10_121106-removebg-preview.png?ex=65d96c7b&is=65c6f77b&hm=2128163739d8803dfcda105b282173e1e806448f00b7a208c13d85bfaa4c5dfd&" alt="Planning A Fundraiser">
+              <h2>Planning A Fundraiser</h2>
+              <p>Active participation is an essential part of our movement's success. Planning a fundraiser is a great way to connect with your local community and spread the importance of our mission. With several different campaigns, it is easy to find something that personally inspires you.</p>
+          </div>
+     
+          <div class="get-involved-column">
+              <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205726857765588992/Screenshot_2024-02-10_120730-removebg-preview.png?ex=65d96ba4&is=65c6f6a4&hm=e8ef461c4e3e1e9ff372d9be199343e2ce1ceb024131d142c86bc667cf33eacd&" alt="Organizing An Event">
+              <h2>Organizing An Event</h2>
+              <p>Our work is never done, and we can use all the help we can get. One of the ways you can take part is by organizing an event. Spread the word about all that Equalize is doing, and help us gain the support we need.</p>
+          </div>
+      </section>
+      <style>
+          #get-involved {
+              text-align: center;
+              padding: 20px;
+          }
+          .get-involved-column {
+              display: inline-block;
+              width: 30%;
+              margin: 20px;
+              vertical-align: top;
+          }
+          .get-involved-column img {
+              width: 50px;
+              height: 50px;
+          }
+      </style>
   
-
-    <div id="Brainstorming Techniques" class="tabcontent">
-    <h3>Brainstorming Techniques</h3>
-    <p>The following are the brainstorming techniques that we utilized to find out the root cause of the problem:</p>
-    <a href="https://www.canva.com/design/DAF0TDnxKCA/-JYkH5ykURGTX2IBZNdiRQ/edit?utm_content=DAF0TDnxKCA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Mind Mapping</a> <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1175700043693576192/MIND_MAP-CAUSES_OF_Gender_Norms_and_Stereotyping_during_the_Historical_Period.jpg?ex=656c2efd&is=6559b9fd&hm=e6b25c984134a7fb41682f31310b6964193478b048c0018e6fc48ae151d3a0e3&" alt="Brainstorming Techniques" style="width:100%">
-    <a href="https://www.canva.com/design/DAF0TrxEBIs/_ieIMCeip5Lxkl-6M6UWng/edit?utm_content=DAF0TrxEBIs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Fishbone Diagram</a> <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1175700849700380672/Aesthetic_Fishbone_Diagram_Graph_1.jpg?ex=656c2fbe&is=6559babe&hm=839d4466840935c8a8a80384039dccf0f1a06702e746a249eb7281e86b949d62&"  alt="Brainstorming Techniques" style="width:100%">
-    <a href="https://www.canva.com/design/DAF0flpuk9Y/wwRTIPQLhBOVY3laHgt_nw/edit?utm_content=DAF0flpuk9Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">5 Why's</a> <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1175701069741969498/5_Whys_-_Finale.jpg?ex=656c2ff2&is=6559baf2&hm=90e23b000847438dc5f29c4aad92eb1fc2fe08396e488ab75781c6ed91477b15&" alt="Brainstorming Techniques" style="width:100%">
-    <a href="https://www.canva.com/design/DAF0Uk6jvTc/C_ykvqiYvE2_22N-9fI5Pg/edit?utm_content=DAF0Uk6jvTc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Starbursting</a> <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1175701216827818065/Starbursting_Gender_issues_during_historical_period.jpg?ex=656c3015&is=6559bb15&hm=aa09af3c318717bce27c6aa26d01c540236d3e35d63c2b3fd79fb56e778f201b&" alt="Brainstorming Techniques" style="width:100%">
+  
+  
+  
+  <section style="background-color: #f0f0f0; padding: 20px; text-align: center;">
+    <h2 style="font-weight: bold;">MEET THE HEAD OF THE ORGANIZATION</h2>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div>
+            <a href="https://www.facebook.com/lourreigngwyneth.apacible?mibextid=2JQ9oc" target="_blank">
+                <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205765753945727018/423619214_1130685218308620_4127227096212742978_n.jpg?ex=65ec04dd&is=65d98fdd&hm=ae9003e1059c4404e62225e32e26e9d17d50fe608c85a609c5cd1a7953e21d0a&" alt="Lourreign Apacible" style="border-radius: 50%; width: 120px; height: 120px;">
+            </a>
+            <p>LOURREIGN GWYNETH APACIBLE</p>
+        </div>
+    </div>
+  </section>
+      </div>
+     </div>
+    </section>
+    </div>
+   </div>
     </div>
     
-    <div id="Solutions" class="tabcontent">
-      <h3>List of Identified Solutions</h3>
-      <p>1. Raise awareness about gender equality</p>
-      <p>2. Promote an inclusive and fair society</p>
-      <p>3. Empower each other</p>
-      <p>4. Be open to changes about gender roles</p>
-      <p>5. Stricter laws protecting human rights</p>
-      <p>6. Establish the role of family towards gender equality</p>
-      <p>7. Educate yourself and others about gender roles and gender equality</p>
-      <p>8. Give proper value to women's work</p>
-      <p>9. Support legislation that prevents discrimination based on gender identity</p>
-      <p>10. Breakdown negative stereotypes</p>
-    </div>
-
-    <div id="Supporting Evidences" class="tabcontent">
-      <h3>Supporting Evidences</h3>
-      <p>Our chosen final solution to the root cause of the problem which is “Gender Norms and Stereotyping During the Historical Period” is to raise awareness about gender equality.</p>
-      <p>These articles provide evidence that raising awareness about gender equality is an effective tool to end gender norms and stereotyping:</p>
+    <div id="Action Plan" class="tabcontent">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Steps in Creating a Prototype</title>
+            <style>
+                /* Add your custom CSS styles here */
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f0f0;
+                }
+                h1 {
+                    color: #333;
+                }
+                ul {
+                    list-style-type: lower-alpha;
+                }
+                ul ul {
+                    list-style-type: disc;
+                    margin-left: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1 style="font-family: Raleway; font-size: 36px; text-align: center;">Steps in Creating a Prototype</h1>
+            <ol>
+                <li><strong>Create A Prototype</strong>
+                    <ul>
+                        <li>Plan making the prototype, you may start by sketching it.</li>
+                        <li>Gather all the materials and resources needed.</li>
+                        <li>Start creating the prototype.</li>
+                    </ul>
+                </li>
+                <li><strong>Make A Storyboard</strong>
+                    <ul>
+                        <li>Gather art materials like paper, coloring materials, pencils, pens, tape, illustration board, etc.</li>
+                        <li>Make use of the materials by creating the storyboard.</li>
+                        <li>When you're through creating the storyboard, tidy up the mess you created.</li>
+                    </ul>
+                </li>
+                <li><strong>Conduct a Usability Test</strong>
+                    <ul>
+                        <li>Plan the questions.</li>
+                        <li>Make a Google survey form.</li>
+                        <li>Add the questions in the Google form.</li>
+                        <li>Insert an image of the storyboard.</li>
+                        <li>Copy the link of the Google form and send it to the target audience.</li>
+                    </ul>
+                </li>
+                <li><strong>Analyze Usability Test</strong>
+                    <ul>
+                        <li>Check results of your usability test.</li>
+                        <li>Create a Google sheet.</li>
+                        <li>Place results of usability test in the Google sheet together with analysis.</li>
+                        <li>Interpret results and data correctly.</li>
+                    </ul>
+                </li>
+                <li><strong>Revising the Prototype</strong>
+                    <ul>
+                        <li>Know respondents' feedback and thoughts about the prototype.</li>
+                        <li>List their suggestions or improvements to the prototype.</li>
+                        <li>Gather all the materials needed for revision.</li>
+                        <li>Apply their suggestions to make the prototype better.</li>
+                    </ul>
+                </li>
+            </ol>
+        </body>
+        </html>
+      </div>
    
-      
-    <a href="https://www.researchgate.net/publication/363194292_Promoting_Gender_Equality_A_Systematic_Review_of_Interventions">Guthridge, M., Kirkman, M., Penovic, T., & Giummarra, M. J. (2022). Promoting Gender Equality: A Systematic Review of Interventions. Social Justice Research, 35(3), 318-343</a>
-    <p>Guthridge et al. (2022) conducted a systematic review of interventions aimed at reducing gender inequality, gender bias, or discrimination against women or girls. They found that education and media interventions were effective in improving gender inclusion, but most gender mainstreaming interventions had only partial beneficial effects on outcomes.</p>
-    
-      <a href="https://www.savethechildren.org/us/charity-stories/how-gender-norms-impact-boys-and-girls">Save the Children. (n.d.). Harmful Gender Norms & Roles Can Create a Lifelong Cycle of Gender Inequality</a>
-      <p>Save the Children (n.d.) highlights how harmful gender norms and roles can create a lifelong cycle of gender inequality.</p>
-    
-      <a href="https://www.undp.org/blog/beyond-stereotypes-toward-equality-digital-transformation-and-gender">United Nations Development Programme. (2021, March 😎. Beyond stereotypes, toward equality; digital transformation and gender</a>
-      <p>The United Nations Development Programme (2021) discusses how digital technologies can be used to promote gender equality, but also notes that social and gender norms and deep-rooted gender stereotypes contribute to the digital gender divide.</p>
-    
-      <a href="https://eige.europa.eu/gender-mainstreaming/tools-methods/gender-awareness-raising?language_content_entity=en">European Institute for Gender Equality. Gender Awareness Raising</a>
-      <p>The European Institute for Gender Equality stated that “Gender awareness raising means providing reliable and accessible information to build a better understanding of gender equality as a core value of democratic societies. As a gender-mainstreaming method, gender awareness raising is crucial for integrating a gender perspective into policies, programmes, projects and services that respond to the different needs of women and men.”</p>
-    
-      <a href="https://plan-international.org/girls-get-equal/challenging-gender-discrimination-a-how-to-guide/">Plan International. How To Challenge Gender Discrimination</a>
-     <p>According to Plan International, an organization that advances children's rights and equality for girls founded in 1937 in their official website, it stated that "A great way to make a big effect in the pursuit of gender equality is to join with others. Seek out local campaign groups. Join or set up school or university societies for gender equality and female leadership. There is strength in numbers, more voices tackling a particular issue means they are more likely to be heard. Helping to raise the profile of campaigns by other marginalized groups is a vital part of ending discrimination."</p>
-    </div>
 
-  </main>
-  <script>
-  function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
+
+    <div id="Prototype Making" class="tabcontent">
+        <h3 style="font-family: Raleway; font-size: 72px; text-align: center;">PROTOTYPE MAKING</h3>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/7Jl-F4L6pBw" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    <div id="Prototype" class="tabcontent">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Image Gallery</title>
+            <style>
+                .gallery {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .gallery img {
+                    max-width: 50%;
+                    transition: transform 0.5s ease;
+                }
+                .gallery img:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="gallery">
+            <!-- Add your images here -->
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213306717228503092/Screenshot_2024-03-02_100401.png?ex=65f4feef&is=65e289ef&hm=033f85ef03b2b2d4ca749bca343c8fc9b298eb1f35bef7898ea5361f5958073c&" alt="discription">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213306764125143100/Screenshot_2024-03-02_100436.png?ex=65f4fefa&is=65e289fa&hm=106fd3623e91c771b49e33d6146ca787c2b9a28c6f9a894a51a02a21f7eb68f0&" alt="picture">
+            <section style="background-color: #f9e3ff; padding: 20px; text-align: center;">
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <div>
+                        <p> It can be shared and re-posted by netizens with just a click on their devices, our solution can reach a million individuals worldwide. It is environmentally friendly and promotes a sense of community.</p>
+                        <p>    In order to have an inclusive no gender-based society, we will be sharing and posting our digital poster online using different social media platforms such as Facebook, TikTok, YouTube and the like.</p>
+                    </div>
+                </section>
+        </div>
+        </body>
+        </html>
+        </div>
+
+
+
+    <div id="Usability Testing" class="tabcontent">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Image Gallery</title>
+            <style>
+                .gallery {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .gallery img {
+                    max-width: 50%;
+                    transition: transform 0.5s ease;
+                }
+                .gallery img:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="gallery">
+            <!-- Add your images here -->
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1212358907192942622/Screenshot_2024-02-28_192020.png?ex=65f18c38&is=65df1738&hm=c2a9895a85c330c09e54e6b3ced5af70ac2c9d84cc3da834bdca6994a872a99c&" alt="discription">
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1212358942315782226/Screenshot_2024-02-28_192055.png?ex=65f18c40&is=65df1740&hm=3cd0d3821de0008959955e78db3b94dee0871af9c2aff3802778a3d7aeaee51d&" alt="gform">
+        </div>
+        </body>
+        </html>
+        </div>
+        
+    <div id="Data Analysis" class="tabcontent">
+        <section style="background-color: #def0ee; padding: 20px; text-align: center;">
+            <h2 style="font-weight: bold;">USERS' DEMOGRAPHICS</h2>
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205783419456458782/Screenshot_2024-02-10_155227.png?ex=65ec1551&is=65d9a051&hm=db8006e0032f0cc51c1639fe6eb5f9ecf0b55e20e13212f343127b76061e7838&" alt="Grade Level" style="width:100%">
+            <p>The majority of 8th graders who responded to the survey (57.5%) were able to provide the most answers. Both Grades 12 and 7 had the second-highest percentage of responses, at 12.5%. Grade 9 was the third most answered, with 10% of replies. And the proportion of respondents in first year, university, and third year college is roughly the same.</p>
+            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205784320003022848/Screenshot_2024-02-10_155600.png?ex=65ec1628&is=65d9a128&hm=74c734c480b63a2f55a772ebd177c433af36755f986d30b6ddf404821961c390&" alt="Age" style="width:100%">
+         <p>The graph shows that most respondents were 13 and 14 years of age, they covered 30% each. It was then followed by those who are 12 years of age that covered 12.5%. The remaining percentage were divided among 15 and 18 years old that equally got 7.5% each, 17 years of age got 5% while ages 19, 20 and 21 equally got 2.5% each.</p>
+          <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205785683462066207/Screenshot_2024-02-10_160126.png?ex=65ec176d&is=65d9a26d&hm=121a37caf7bbb73f9fc3b64e489981a56160c74fc7978bd795cd719c3cb92f15&" alt="Gender" style="width:100%">
+        <p>The pie chart shows that 57.5% of the respondents were composed of male while 40% are female respondents. The remaining 2.5% of the respondents prefer not to say their genders.</p>
+      
+          <h2 style="font-weight: bold;">OUR USABILITY TESTING QUESTIONS</h2>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205786969632935936/Screenshot_2024-02-10_160635.png?ex=65ec189f&is=65d9a39f&hm=41699fc96d16151396f80d847286951e5bcafeb141822da97f489a940adb83b7&" alt="Q1" style="width:100%">
+        <p>The pie chart illustrates that 62.5% of the respondents seldom used digital posters as a means of spreading awareness compared to the 20% who answered frequently, and 17.5% who answered never.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205787863971667978/Screenshot_2024-02-10_161010.png?ex=65ec1975&is=65d9a475&hm=68b8e17541975515b58756db830e1b277dc230617c4da30c2f9fdf19ab85dbe9&" alt="Q2" style="width:100%">
+        <p>Out of 40 who answered the survey, 70% or 28 of them share and like digital posters online to help spread awareness. And the rest 30% or 12 doesn't like to share digital posters. Based on this result, we can assume that our digital poster should look more appealing and shareable to the public in order to reach our goal. </p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205788613200183406/Screenshot_2024-02-10_161307.png?ex=65ec1a27&is=65d9a527&hm=2ba07329b65a8bdd01395cc5caec23d773ebeb5b5bc87d0a612679aef824fbe8&" alt="Q3" style="width:100%">
+        <p>The pie chart illustrates that 70% of the respondents usually see digital posters in Facebook while 10% answered Instagram, both Twitter and Tiktok had 7.5% and 5% in Youtube. From here, we can conclude that Facebook is still the leading online social platform that can be used as a tool for spreading awareness.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205789181121527888/Screenshot_2024-02-10_161524.png?ex=65ec1aaf&is=65d9a5af&hm=0ec5209112e290f22c335fa91606a9dd6dd470e9bf13a345d559e617090f948d&" alt="Q4" style="width:100%">      
+        <p>The pie chart shows that 97.5% or 39 out of 40 respondents voted for ""yes"". Therefore, they believed that the content and message of our prototype is clear and easy to understand compared to the 2.5% or 1 out of 40 that opposed this.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205789703585005608/Screenshot_2024-02-10_161726.png?ex=65ec1b2b&is=65d9a62b&hm=7df82d4be0a43a1409f8be6413805d57ef340a1416f23fe5591840c6afc03240&" alt="Q5" style="width:100%">      
+        <p>Based on the pie chart, out of 40 respondents, 92.5% or 37 of them said that the prototype was aesthetically pleasing to them as an audience while 7.5% or 3 of them said otherwise.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205790397318697010/Screenshot_2024-02-10_162013.png?ex=65ec1bd1&is=65d9a6d1&hm=b688b6a1c3667f5155333e4a6bb64c177c8e04588efabfc0149bc91c69e6d050&" alt="Q6" style="width:100%">      
+        <p>Based on the pie chart, out of 40 respondents, 97.5% or 39 of them understood the purpose and objective of our tool while 2.5% or only 1 of them said otherwise.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205791164326748170/Screenshot_2024-02-10_162317.png?ex=65ec1c88&is=65d9a788&hm=901b224b22aa23de9d512694e1095ece1d36e0663026727427b0182e11b275fc&" alt="Q7" style="width:100%">      
+        <p>As you can see 97.5% of the respondents answered yes, while 2.5% of the people answered no. It shows that many still agreed that our prototype could be of help to promote gender equality in our society. It is a good outcome to continue with the use of our prototype.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205791808077176852/Screenshot_2024-02-10_162550.png?ex=65ec1d21&is=65d9a821&hm=c1407eb5ce9cef9ea63bcead7622cdf66e47549697bddf7024c94a99ee74d660&" alt="Q8" style="width:100%">
+        <p>Based on the chart, 65% of the respondents liked our prototype because "It promotes sense of communication and encourages people to take action." The other 25%  liked it because "It is cost efficient and eco-friendly". The remaining 10% answered they liked it because "It can reach a larger scope of target audience"</p>      
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205792426871226428/Screenshot_2024-02-10_162817.png?ex=65ec1db5&is=65d9a8b5&hm=ed2c497d6165eb9812b47d3f9f21cee303e46b1938fd914ff19d43ee7bb0e439&" alt="Q9" style="width:100%">
+        <p>Out of the 40 respondents that we asked 97.5% or 39 people agreed that our goal of spreading awareness about gender equality through the use of digital poster is S.M.A.R.T. They believed that with this we can get better result compare to 2.5% or the only one who contradicted it.</p>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205792885119647744/Screenshot_2024-02-10_163007.png?ex=65ec1e22&is=65d9a922&hm=3598025dbdd5c2e31af27c3d429e79ceea1abf8caba1e95aa1093bf92a4702f0&" alt="Q10" style="width:100%">
+        <p>Based on the recommendations gathered, most of our respondents believed that our prototype is already good. However, to further enhance it others suggested to use brighter color, enhance the layout and design, use picture as a background that can make it more aesthetic and intriguing and create a website to further promote our objective about gender equality.</p>
+      </section>
+      </div>
+      
+
+    <div id="Revised Prototype" class="tabcontent">
+        <section style="background-color: #def0ee; padding: 20px; text-align: center;">
+            <h2 style="font-weight: bold;">The Critical Area in Our Usability Testing</h2>
+         
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Automatic Slideshow</title>
+                <!-- Include jQuery library -->
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <style>
+                    #slideshow {
+                        width: 100%;
+                        height: 600px; /* Adjust height as needed */
+                        overflow: hidden;
+                    }
+                    #slideshow img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; /* Maintain aspect ratio */
+                    }
+                </style>
+            </head>
+            <body>
+                <div id="slideshow">
+                    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213316199476101150/Screenshot_2024-03-02_104508.png?ex=65f507c4&is=65e292c4&hm=655299401e3b845e0033c44f3ec1f02dbc821622eb41bc7abad8b08f162236a4&" alt="Image 1">
+                    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213317265882095616/Screenshot_2024-03-02_104927.png?ex=65f508c2&is=65e293c2&hm=a8b4ddcf3a00015a1a86d9148e7a6b2314c654fcf17a6440bfb1ceac6b9eb539&" alt="Image 2">
+                    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213318415507398706/Screenshot_2024-03-02_105026.png?ex=65f509d4&is=65e294d4&hm=b69f3ef74f5b69fcf1e29c4121ad859ea67036e19c82098c7a88dc8b361fc4b9&" alt="Image 3">
+                    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213318755891941407/Screenshot_2024-03-02_105519.png?ex=65f50a25&is=65e29525&hm=c17933f981f97b7b78e1af49cbe18bf32136ce530d9561c2330e2e1b37915f0d&" alt="Image 4">
+                </div>
+                <script>
+                    $(document).ready(function() {
+                        const interval = 3000; // Change image every 2 seconds
+                        let currentImage = 0;
+                        const images = $("#slideshow img");
+            
+            
+            
+            
+                        function changeImage() {
+                            images.hide();
+                            currentImage = (currentImage + 1) % images.length;
+                            images.eq(currentImage).fadeIn();
+                        }
+            
+            
+            
+            
+                        setInterval(changeImage, interval);
+                    });
+                </script>
+            </section>
+<section>
+        <h3 style="font-family: Raleway; font-size: 72px; text-align: center;">REVISED PROTOTYPE</h3>
+        <iframe width="100%" height="700" src="https://www.youtube.com/embed/BPoaBH72GJE" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section style="background-color: #def0ee; padding: 20px; text-align: center;">
+        <a href="https://r6usoiobnhqtgwvj27zfbw.on.drv.tw/V4%20PROTOTYPE.html?fbclid=IwAR3semk9R4FZF4OZqsa_T1TWil9hufdxmRnYnag4wtdnRurYPEPLb2BZz1E">Our Website</a>
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213322800245506110/website_tab_1.png?ex=65f50dea&is=65e298ea&hm=c7925ac1b55817dc871059b73fe57d93dcec11ef60cba57f8345d4dd723cf700&" alt="Image 1" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213326991739195433/website_tab_2.png?ex=65f511d1&is=65e29cd1&hm=6da77f8e0254c71df5d6e39757ee3d1823afd5a0124da2ee6a3007d653e38f74&" alt="Image 2" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213327049633038336/website_tab_3.png?ex=65f511df&is=65e29cdf&hm=f08520c3068f2105755406a9768de345ff0061c9aa7c138aad6c3a6185118a59&" alt="Image 3" style="width:100%">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213327089139449866/website_tab_4.png?ex=65f511e8&is=65e29ce8&hm=0e134950acf1517e6e11da8334ecd3ec04ca24491908e04635b5d0431ce82f34&" alt="Image 4" style="width:100%">
+    </div>
+</section>
     
-    // Hide all tab content
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    
-    // Remove active class from all tab links
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    
-    // Show the selected tab content
-    document.getElementById(tabName).style.display = "block";
-    
-    // Add active class to the clicked tab link
-    evt.currentTarget.className += " active";
+</main>
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+ 
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+ 
+  // Remove active class from all tab links
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+ 
+  // Show the selected tab content
+  document.getElementById(tabName).style.display = "block";
+ 
+  // Add active class to the clicked tab link
+  evt.currentTarget.className += " active";
+}
+
+
+
+
+// Set the default active tab
+document.getElementsByClassName("tablinks")[0].click();
+</script>
+<head>
+
+
+
+
+  <style>
+  body {
+  background-color: rgb(229, 229, 229);
+  }
+  FAC6AC
+  h1 {
+  color: white;
+  text-align: center;
   }
 
-  // Set the default active tab
-  document.getElementsByClassName("tablinks")[0].click();
-  </script>
-  <head>
 
-    <style>
-    body {
-    background-color: rgb(244, 197, 251);
-    }
-    FAC6AC
-    h1 {
-    color: white;
-    text-align: center;
-    }
 
-    p {
-    font-family: Verdana;
-    font-size: 15px;
-    }
-    </style>
-  </head>
+
+  p {
+  font-family: Railway;
+  font-size: 15px;
+  }
+  </style>
+</head>
 </body>
 </html>
+
+
