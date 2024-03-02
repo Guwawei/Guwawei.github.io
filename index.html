@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <style>
-        /* CSS styles for tabs */
-        .tabcontent {
-            display: none;
-        }
 
-        .tablinks {
-            background-color: #f2f2f2;
-            color: black;
-            padding: 8px 16px;
-            border: none;
-            cursor: pointer;
-        }
 
-        .tablinks:hover {
-            background-color: #ddd;
-        }
 
-        .tablinks.active {
-            background-color: #ccc;
-        }
-    </style>
+
+  <style>
+  /* CSS styles for tabs */
+  .tabcontent {
+  display: none;
+  }
+
+
+
+
+  .tablinks {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  }
+
+
+
+
+  .tablinks:hover {
+  background-color: #ddd;
+  }
+
+
+
+
+  .tablinks.active {
+  background-color: #ccc;
+  }
+  </style>
+  <title></title>
 </head>
 <body>
     <section style="background-color: rgb(255, 255, 255);">
@@ -43,83 +54,87 @@
             <button class="tablinks" onclick="openTab(event, 'Usability Testing')" style="background: none;">Usability Testing</button>
             <button class="tablinks" onclick="openTab(event, 'Data Analysis')" style="background: none;">Data Analysis</button>
             <button class="tablinks" onclick="openTab(event, 'Revised Prototype')" style="background: none;">Revised Prototype</button>
-          </div>
+          </div><!-- Tab content -->
         </main>
-    </section>
+      </section>
 
-    <div id="Gender Issues" class="tabcontent">
-        <h1 style="font-family: Raleway; font-size: 72px; text-align: center;">JOIN EQUALIZE</h1>
-        <h2 style="font-family: Avenir Light; font-size: 30px; text-align: center;">Take Action Now</h2>
-    
-    
-    
-    
-        <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Automatic Slideshow</title>
-        <!-- Include jQuery library -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <style>
-            #slideshow {
-                width: 100%;
-                height: 300px; /* Adjust height as needed */
-                overflow: hidden;
-            }
-            #slideshow img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover; /* Maintain aspect ratio */
-            }
-        </style>
-    </head>
-    <body>
-        <div id="slideshow">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717424322646056/Screenshot_2024-02-03_081252.png?ex=65ebd7db&is=65d962db&hm=1cb34a7a06f3c7cbf0b7091a5292885a272e8f6da19a65f832f48b86b0cd988f&" alt="Image 1">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717538185416795/Screenshot_2024-02-03_091344.png?ex=65ebd7f6&is=65d962f6&hm=77e492803957d5406029d52249511a4ecefec7fdec8cffeff6a386fd5953b9e4&" alt="Image 2">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717609648103534/Screenshot_2024-02-03_090844.png?ex=65ebd807&is=65d96307&hm=e3928cf29213932ce8ef30644d6af1229b5ab1ae0dc3cccfc5f91fe5caa150e5&" alt="Image 3">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717647841435658/Screenshot_2024-02-03_092406.png?ex=65ebd810&is=65d96310&hm=a2849d9ea1bda52e55dc2cfd90492d7c0bad1b8ba1f48282bdb435f5b0b825d7&" alt="Image 4">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213423177640706119/Screenshot_2024-02-03_081140.png?ex=65f56b65&is=65e2f665&hm=8d86787dcfe974e5d05fdb288eccca7d2605bd55a3d0d967b6fa7d3572cfbf00&" alt="Image 5">
-            <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213423273832874014/Screenshot_2024-02-03_080749.png?ex=65f56b7c&is=65e2f67c&hm=f9e1129830057404ab28f3a2dbc3f489a214d57c5e9cdb3258f43b15c78446b2&" alt="Image 6">
-        </div>
-    
-    
-    
-    
-    
-        <script>
-            $(document).ready(function() {
-                const interval = 3000; // Change image every 3 seconds
-                let currentImage = 0;
-                const images = $("#slideshow img");
-    
-    
-    
-    
-                function changeImage() {
-                    images.hide();
-                    currentImage = (currentImage + 1) % images.length;
-                    images.eq(currentImage).fadeIn();
-                }
-    
-    
-    
-    
-                setInterval(changeImage, interval);
-            });
-        </script>
-    </body>
-    </html>
 
-    <section style="background-color: #def0ee; padding: 20px; text-align: center;">
-        <h2 style="font-weight: bold;">ABOUT EQUALIZE</h2>
-        <p style="font-style: italic;">Inspiring Change</p>
-        <p>Started by a group of students and visionaries back in 2023, Equalize has grown into an impactful Gender Equality Movement. We emphasize transparency in everything we do, setting bold goals and pursuing a clear strategy that seeks to move the needle. We are constantly growing and adapting to the changes of society, and invite you to learn more about how you can make an impact.</p>
-    <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213079328926072852/Screenshot_2024-03-01_190353.png?ex=65f42b29&is=65e1b629&hm=d0215e45bd138a5b761a00f712d7c06b2c98c18058f1fac137f58e6754e82fac&" alt="Image 1" style="width:100%">
+
+
+<div id="Gender Issues" class="tabcontent">
+    <h1 style="font-family: Raleway; font-size: 72px; text-align: center;">JOIN EQUALIZE</h1>
+    <h2 style="font-family: Avenir Light; font-size: 30px; text-align: center;">Take Action Now</h2>
+
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Slideshow</title>
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #slideshow {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+            overflow: hidden;
+        }
+        #slideshow img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div id="slideshow">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717424322646056/Screenshot_2024-02-03_081252.png?ex=65ebd7db&is=65d962db&hm=1cb34a7a06f3c7cbf0b7091a5292885a272e8f6da19a65f832f48b86b0cd988f&" alt="Image 1">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717538185416795/Screenshot_2024-02-03_091344.png?ex=65ebd7f6&is=65d962f6&hm=77e492803957d5406029d52249511a4ecefec7fdec8cffeff6a386fd5953b9e4&" alt="Image 2">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717609648103534/Screenshot_2024-02-03_090844.png?ex=65ebd807&is=65d96307&hm=e3928cf29213932ce8ef30644d6af1229b5ab1ae0dc3cccfc5f91fe5caa150e5&" alt="Image 3">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205717647841435658/Screenshot_2024-02-03_092406.png?ex=65ebd810&is=65d96310&hm=a2849d9ea1bda52e55dc2cfd90492d7c0bad1b8ba1f48282bdb435f5b0b825d7&" alt="Image 4">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213423177640706119/Screenshot_2024-02-03_081140.png?ex=65f56b65&is=65e2f665&hm=8d86787dcfe974e5d05fdb288eccca7d2605bd55a3d0d967b6fa7d3572cfbf00&" alt="Image 5">
+        <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1213423273832874014/Screenshot_2024-02-03_080749.png?ex=65f56b7c&is=65e2f67c&hm=f9e1129830057404ab28f3a2dbc3f489a214d57c5e9cdb3258f43b15c78446b2&" alt="Image 6">
     </div>
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            const interval = 3000; // Change image every 3 seconds
+            let currentImage = 0;
+            const images = $("#slideshow img");
+
+
+
+
+            function changeImage() {
+                images.hide();
+                currentImage = (currentImage + 1) % images.length;
+                images.eq(currentImage).fadeIn();
+            }
+
+
+
+
+            setInterval(changeImage, interval);
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<section style="background-color: #def0ee; padding: 20px; text-align: center;">
+  <h2 style="font-weight: bold;">ABOUT EQUALIZE</h2>
+  <p style="font-style: italic;">Inspiring Change</p>
+  <p>Started by a group of students and visionaries back in 2023, Equalize has grown into an impactful Gender Equality Movement. We emphasize transparency in everything we do, setting bold goals and pursuing a clear strategy that seeks to move the needle. We are constantly growing and adapting to the changes of society, and invite you to learn more about how you can make an impact.</p>
 </section>
+</div>
 
     
     <div id="About Us" class="tabcontent">
@@ -127,7 +142,7 @@
 <h2 style="text-align: center;">Fighting for What We Believe In. Together.</h2>
 <p style="text-align: center;">Equalize began as a local Gender Equality Movement in 2023, focusing on social awareness and community action. We soon became recognized as an empowered collection of student leaders—engaging with more and more people, adding more and more supporters, and amplifying more and more voices.</p>
 <div style="text-align: center;">
-    <a href="https://guwawei.github.io/"><strong>Learn more about THE ROOTS OF EQUALIZE: A GENDER EQUALITY AWARENESS CAMPAIGN</strong></a>
+    <a href="https://reignlouise.github.io/reign.github.io/"><strong>Learn more about THE ROOTS OF EQUALIZE: A GENDER EQUALITY AWARENESS CAMPAIGN</strong></a>
 </div>
 <p style="text-align: center;">A significant initiative aimed at promoting gender equality and raising awareness about the importance of equal rights for all. Through this campaign, we strive to create a world where everyone, regardless of gender, has equal opportunities, respect, and access to resources.</p>
         <img src="https://cdn.discordapp.com/attachments/1175699393626783777/1205723051845754941/416049944_248197614988828_5867689897353750970_n_2.jpg?ex=65ebdd18&is=65d96818&hm=c8e69f37036e53a669bfda527d1f3ae836248eaa5117a7debfc0452369e9f36a&" alt="Our Story" style="width:100%; height:100%; display: block; margin: 0 auto;">
